@@ -16,11 +16,12 @@ Fish movement behavior: bounded swimming + smooth yaw rotation + random “turn 
 
 Fullscreen canvas layout via CSS.
 
-**Run Locally
-**
+**Run Locally**
+
 Because the app uses fetch() for shader files, you need an HTTP server.
 
 **How It Works**
+
 Water ripple system (water.js):
 
 Builds a PlaneGeometry(10, 10, 200, 200) and applies a ShaderMaterial with uniforms for time and ripple data. 
